@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Customer Churn Prediction</title>
+</head>
+<body>
+    <h2>Customer Churn Prediction App</h2>
+    <form action="/predict" method="post">
+        <!-- Example inputs (keep simple for demo) -->
+        <label>Tenure (months):</label><br>
+        <input type="number" name="tenure" step="1" required><br><br>
+
+        <label>Monthly Charges:</label><br>
+        <input type="number" name="MonthlyCharges" step="0.01" required><br><br>
+
+        <label>Total Charges:</label><br>
+        <input type="number" name="TotalCharges" step="0.01" required><br><br>
+
+        <button type="submit">Predict</button>
+    </form>
+
+    <h3>{{ prediction_text }}</h3>
+</body>
+</html>
