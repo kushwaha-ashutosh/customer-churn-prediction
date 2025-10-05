@@ -90,28 +90,6 @@ The top features driving churn were:
 
 ---
 
-## 📂 Project Structure
-
-Customer_Churn_Prediction/
-│
-├── data/
-│ └── Telco-Customer-Churn.csv
-│
-├── notebooks/
-│ └── churn_prediction.ipynb
-│
-├── src/
-│ ├── data_preprocessing.py
-│ ├── model_training.py
-│ ├── evaluation.py
-│
-├── churn_model.pkl # Saved trained model
-├── requirements.txt # Required dependencies
-├── README.md # Project documentation
-└── app.py # (Optional) Streamlit/Flask deployment file
-
----
-
 ## ⚙️ Installation & Setup
 ```bash
 git clone https://github.com/yourusername/Customer_Churn_Prediction.git
