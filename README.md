@@ -113,8 +113,6 @@ Customer_Churn_Prediction/
 ---
 
 ## ⚙️ Installation & Setup
-
-### **1️⃣ Clone the repository**
 ```bash
 git clone https://github.com/yourusername/Customer_Churn_Prediction.git
 cd Customer_Churn_Prediction
